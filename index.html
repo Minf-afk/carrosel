@@ -2,15 +2,41 @@
 <html>
   <head>
     <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <div class="title">
-        <h1>Nossos Feedbacks</h1>
-        <div class="undeline"></div>
-      </div>
-      <!------> 
-      <img src="img/peo1.jpg" alt="Imagem de uma pessoa" />
+      <section class="container">
+        <div class="title">
+          <h1>Nossos Feedbacks</h1>
+          <div class="undeline"></div>
+        </div>
+        <article class="feedback">
+          <div class="img">
+            <img
+              src=""
+              id="person-img"
+              alt="Imagem de uma pessoa" />
+          </div>
+            <h3 id="author">José Alberto</h3>
+            <p id="job"> front-end developer </p>
+            <p id="info">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              eget felis in nunc lacinia lacinia. Nullam nec nisi nec nunc
+              lacinia lacinia. Nullam nec nisi nec nunc lacinia lacinia."
+            </p>
+          <div class="buttons">
+            <button class="prev-btn">
+              <img src="img/seta-esquerda.png" alt="seta-esquerda" id="esquerda" ></i>
+            </button>
+            <button class="next-btn">
+              <img src="img/seta-direita.png" alt="seta-direita" id="seta-direita"></i>
+            </button>
+          <!------>
+          <button class="random-btn">Me Surpreenda! </button>
+        </article>
+      </section>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>
