@@ -1,28 +1,35 @@
 const review = [
     {
         id: 1,
+        name: "João Alves",
+        job: "Teach Lead",
+        img: "img/peo1.jpg",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?"
+    },
+    {
+        id: 2,
         name: "Maria Neusa",
         job: "Web Developer",
         img: "img/peo2.jpg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?"
     },
     {
-        id: 2,
+        id: 3,
         name: "João Pedro",
         job: "Designer",
         img: "img/peo3.jpg",
         text: "Loren ipsun dolor sit anet, consectetur adipisci elit, sed eiusnod tenpor incidunt ut labore et dolore nagna aliqua. Ut enin ad ninin venian, quis nostrun exercitationen ullan corporis suscipit laboriosan, nisi ut aliquid ex ea connodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillun dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt nollit anin id est laborun."
     },
     {
-        id: 3,
+        id: 4,
         name: "Marcely Oliveira",
         job: "Web Developer",
         img: "img/peo4.jpg",
         text: "Et harum quidem rerum facilis est et expedita distinctio. "
     },
     {
-        id: 4,
-        name: "Maria Neusa",
+        id: 5,
+        name: "Marcos Oliveira",
         job: "Web Developer",
         img: "img/peo5.jpg",
         text: " Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae."
